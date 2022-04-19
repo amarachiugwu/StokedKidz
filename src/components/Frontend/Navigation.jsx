@@ -22,16 +22,28 @@ function Navigation() {
                 </li>
                 <li>
                   {" "}
+                  <Link className="nav-link" to="#about">
+                    About
+                  </Link>
+                </li>
+                <li>
+                    {" "}
+                    <Link className="nav-link" to="#roadmap">
+                      Roadmap
+                    </Link>
+                </li>
+                <li>
+                  {" "}
                   <Link className="nav-link" to="#nft-gallery">
                     Nft Gallery
                   </Link>
                 </li>
-                <li>
-                  {" "}
-                  <Link className="nav-link" to="#nft-top-creator">
-                    Creator
-                  </Link>
-                </li>
+                  <li>
+                    {" "}
+                    <Link className="nav-link" to="#team">
+                      Team
+                    </Link>
+                  </li>
                 <li>
                   {" "}
                   <Link className="nav-link" to="#nft-faq-video">
@@ -40,15 +52,9 @@ function Navigation() {
                 </li>
                 <li>
                   {" "}
-                  <Link className="nav-link" to="#nft-live-bid">
-                    Live Bid
-                  </Link>
-                </li>
-                <li>
-                  {" "}
-                  <Link className="nav-link" to="#nft-blog">
-                    Blog
-                  </Link>
+                  <a className="nav-link" target="_blank" href="/whitepaper.txt">
+                    Whitepaper
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -91,14 +97,26 @@ function Navigation() {
                   </li>
                   <li>
                     {" "}
+                    <Link className="nav-link" to="#about">
+                        About
+                    </Link>
+                   </li>
+                  <li>
+                    {" "}
+                    <Link className="nav-link" to="#roadmap">
+                      Roadmap
+                    </Link>
+                  </li>
+                  <li>
+                    {" "}
                     <Link className="nav-link" to="#nft-gallery">
                       Nft Gallery
                     </Link>
                   </li>
                   <li>
                     {" "}
-                    <Link className="nav-link" to="#nft-top-creator">
-                      Creator
+                    <Link className="nav-link" to="#team">
+                      Team
                     </Link>
                   </li>
                   <li>
@@ -107,18 +125,12 @@ function Navigation() {
                       FAQ
                     </Link>
                   </li>
-                  <li>
-                    {" "}
-                    <Link className="nav-link" to="#nft-live-bid">
-                      Live Bid
-                    </Link>
-                  </li>
-                  <li>
-                    {" "}
-                    <Link className="nav-link" to="#nft-blog">
-                      Blog
-                    </Link>
-                  </li>
+                <li>
+                  {" "}
+                  <a className="nav-link" target="_blank" href="whitepaper.txt">
+                    Whitepaper
+                  </a>
+                </li>
                 </ul>
               </nav>
             </div>

@@ -33,16 +33,14 @@ function Banner() {
               data-wow-delay="300ms"
               data-wow-duration="1500ms"
             >
-              Collect Digital Rare Art Discover Buy <span>NFTs.</span>
+              Welcome to Stocked KIDZ Club <span>NFTs.</span>
             </h1>
             <p
               className="wow fadeFromUp"
               data-wow-delay="500ms"
               data-wow-duration="1500ms"
             >
-              Digital Marketplace fr cryptocurrency Collectable and none
-              Fungitable tokend (NFTs) buy,sell dan discover exclusive Digital
-              arts
+             3000 Stocked KIDZ Club NFT utility collection, For your membership to the Treehouse Community, gives you exclusive access to member’s only Merch, Airdrops, upcoming Events, and much more, mint Now.
             </p>
             <div
               className="nft-btn wow fadeFromUp"
