@@ -86,7 +86,7 @@ function FAQ() {
                         </div>
                       </div>
                     </div>
-                    
+
                     <div className="nft-faq">
                       <div className="nft-faq-header" id="headingthree">
                         <span>Q3</span>
