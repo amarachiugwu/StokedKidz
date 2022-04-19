@@ -102,7 +102,10 @@ theme.
   animation-name: fadeFromLeft;
 }
 
-.nft-top-content .nft-btn a, .nft-live-bid-items .thx-floor-price a, .nft-feature-inner-item .thx-inner-item .thx-inner-text .nft-btn-2 a, .nft-marketplace-items .thx-inner-text .thx-inner-btn a {
+.nft-top-content .nft-btn a,
+.nft-live-bid-items .thx-floor-price a,
+.nft-feature-inner-item .thx-inner-item .thx-inner-text .nft-btn-2 a,
+.nft-marketplace-items .thx-inner-text .thx-inner-btn a {
   z-index: 1;
   color: #fff;
   width: 100%;
@@ -113,9 +116,16 @@ theme.
   overflow: hidden;
   position: relative;
   border: 2px solid rgba(2, 247, 70, 0.2);
-  background: linear-gradient(96.49deg, rgba(2, 247, 70, 0.2) 0%, rgba(60, 16, 242, 0.2) 101.82%);
+  background: linear-gradient(
+    96.49deg,
+    rgba(2, 247, 70, 0.2) 0%,
+    rgba(60, 16, 242, 0.2) 101.82%
+  );
 }
-.nft-top-content .nft-btn a:before, .nft-live-bid-items .thx-floor-price a:before, .nft-feature-inner-item .thx-inner-item .thx-inner-text .nft-btn-2 a:before, .nft-marketplace-items .thx-inner-text .thx-inner-btn a:before {
+.nft-top-content .nft-btn a:before,
+.nft-live-bid-items .thx-floor-price a:before,
+.nft-feature-inner-item .thx-inner-item .thx-inner-text .nft-btn-2 a:before,
+.nft-marketplace-items .thx-inner-text .thx-inner-btn a:before {
   top: 0;
   left: auto;
   right: 0;
@@ -127,9 +137,16 @@ theme.
   position: absolute;
   -webkit-transition: 300ms all ease;
   transition: 300ms all ease;
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
 }
-.nft-top-content .nft-btn a:hover:before, .nft-live-bid-items .thx-floor-price a:hover:before, .nft-feature-inner-item .thx-inner-item .thx-inner-text .nft-btn-2 a:hover:before, .nft-marketplace-items .thx-inner-text .thx-inner-btn a:hover:before {
+.nft-top-content .nft-btn a:hover:before,
+.nft-live-bid-items .thx-floor-price a:hover:before,
+.nft-feature-inner-item
+  .thx-inner-item
+  .thx-inner-text
+  .nft-btn-2
+  a:hover:before,
+.nft-marketplace-items .thx-inner-text .thx-inner-btn a:hover:before {
   left: 0;
   width: 100%;
   right: auto;
@@ -140,7 +157,7 @@ theme.
 .nft-home {
   margin: 0;
   padding: 0;
-  color: #DADADA;
+  color: #dadada;
   font-size: 16px;
   overflow-x: hidden;
   line-height: 1.625;
@@ -209,7 +226,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -247,14 +265,14 @@ select:focus,
 select:visited {
   outline: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   text-decoration: none;
   color: inherit;
 }
 
 .form-control {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .pera-content p {
@@ -329,8 +347,15 @@ select:visited {
   background-size: 200%, 1px;
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background-image: -webkit-gradient(linear, left top, right top, from(#02F746), color-stop(50%, #3C10F2), to(#02F746));
-  background-image: linear-gradient(90deg, #02F746 0%, #3C10F2 50%, #02F746);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#02f746),
+    color-stop(50%, #3c10f2),
+    to(#02f746)
+  );
+  background-image: linear-gradient(90deg, #02f746 0%, #3c10f2 50%, #02f746);
 }
 .nft-btn a:hover {
   background-position: 120%;
@@ -346,7 +371,7 @@ select:visited {
   margin-right: 5px;
 }
 .nft-section-title p {
-  color: #DADADA;
+  color: #dadada;
 }
 
 .thx-slider-inner {
@@ -372,15 +397,27 @@ select:visited {
   width: 100%;
   height: 1px;
   position: absolute;
-  background: -webkit-gradient(linear, left top, right top, color-stop(3.07%, #3C10F2), color-stop(52.04%, #02F746), color-stop(99.16%, #3C10F2));
-  background: linear-gradient(90deg, #3C10F2 3.07%, #02F746 52.04%, #3C10F2 99.16%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(3.07%, #3c10f2),
+    color-stop(52.04%, #02f746),
+    color-stop(99.16%, #3c10f2)
+  );
+  background: linear-gradient(
+    90deg,
+    #3c10f2 3.07%,
+    #02f746 52.04%,
+    #3c10f2 99.16%
+  );
 }
 .nft-header-section .dropdown {
   position: relative;
 }
 .nft-header-section .dropdown:hover .dropdown-menu {
   -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  transform: scaleY(1);
 }
 .nft-header-section .dropdown:after {
   top: -2px;
@@ -388,7 +425,7 @@ select:visited {
   content: "+";
   font-size: 18px;
   font-weight: 700;
-  color: #02DFBF;
+  color: #02dfbf;
   position: absolute;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
@@ -410,15 +447,17 @@ select:visited {
   border-radius: 0;
   position: absolute;
   -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  transform: scaleY(0);
   background-color: #fff;
   background-clip: inherit;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   -webkit-transform-origin: center top 0;
-          transform-origin: center top 0;
-  -webkit-box-shadow: 0 13px 18px -8px rgba(0, 0, 0, 0.15), 0 29px 45px 4px rgba(0, 0, 0, 0.08), 0 11px 55px 10px rgba(0, 0, 0, 0.07);
-          box-shadow: 0 13px 18px -8px rgba(0, 0, 0, 0.15), 0 29px 45px 4px rgba(0, 0, 0, 0.08), 0 11px 55px 10px rgba(0, 0, 0, 0.07);
+  transform-origin: center top 0;
+  -webkit-box-shadow: 0 13px 18px -8px rgba(0, 0, 0, 0.15),
+    0 29px 45px 4px rgba(0, 0, 0, 0.08), 0 11px 55px 10px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 13px 18px -8px rgba(0, 0, 0, 0.15),
+    0 29px 45px 4px rgba(0, 0, 0, 0.08), 0 11px 55px 10px rgba(0, 0, 0, 0.07);
 }
 .nft-header-section .dropdown-menu .dropdown-menu {
   top: 20px;
@@ -464,7 +503,7 @@ select:visited {
   position: absolute;
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background-color: #02DFBF;
+  background-color: #02dfbf;
 }
 .nft-header-section .dropdown-menu a:after {
   display: none;
@@ -491,8 +530,15 @@ select:visited {
   background-size: 200%, 1px;
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background-image: -webkit-gradient(linear, left top, right top, from(#02F746), color-stop(50%, #3C10F2), to(#02F746));
-  background-image: linear-gradient(90deg, #02F746 0%, #3C10F2 50%, #02F746);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#02f746),
+    color-stop(50%, #3c10f2),
+    to(#02f746)
+  );
+  background-image: linear-gradient(90deg, #02f746 0%, #3c10f2 50%, #02f746);
 }
 .nft-header-section .nft-btn a img {
   margin-right: 8px;
@@ -514,10 +560,10 @@ select:visited {
   transition: 500ms all ease;
 }
 .nft-main-navigation li a:hover {
-  color: #02F746;
+  color: #02f746;
 }
 .nft-main-navigation li a.active {
-  color: #02F746;
+  color: #02f746;
 }
 .nft-main-navigation .nav-link {
   display: inline;
@@ -530,17 +576,17 @@ select:visited {
   position: fixed;
   padding: 10px 0px;
   -webkit-animation-duration: 0.7s;
-          animation-duration: 0.7s;
+  animation-duration: 0.7s;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
-          animation-name: fadeInDown;
+  animation-name: fadeInDown;
   -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
+  animation-timing-function: ease;
   -webkit-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
   -webkit-box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
 }
 .nft-header-section.sticky-on .dropdown-menu {
   top: 55px;
@@ -558,7 +604,7 @@ select:visited {
   background-color: #1b0234;
   padding: 40px 0px;
   -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.19);
-          box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.19);
+  box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.19);
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
 }
@@ -571,7 +617,7 @@ select:visited {
 .nft-mobile_menu_content .navbar-nav .dropdown-menu {
   position: static !important;
   -webkit-transform: none !important;
-          transform: none !important;
+  transform: none !important;
 }
 .nft-mobile_menu_content .nft-mobile-main-navigation .navbar-nav li {
   width: 100%;
@@ -580,7 +626,10 @@ select:visited {
   transition: 0.3s all ease-in-out;
   border-bottom: 1px solid #36125a;
 }
-.nft-mobile_menu_content .nft-mobile-main-navigation .navbar-nav li:first-child {
+.nft-mobile_menu_content
+  .nft-mobile-main-navigation
+  .navbar-nav
+  li:first-child {
   border-bottom: 1px solid #36125a;
 }
 .nft-mobile_menu_content .nft-mobile-main-navigation .navbar-nav li a {
@@ -634,7 +683,7 @@ select:visited {
   right: 0;
   top: -42px;
   z-index: 5;
-  color: #02DFBF;
+  color: #02dfbf;
   display: none;
   cursor: pointer;
   font-size: 30px;
@@ -650,23 +699,38 @@ select:visited {
   opacity: 1;
   visibility: visible;
 }
-.nft-mobile_menu .nft-mobile_menu_content .nft-mobile-main-navigation .navbar-nav .dropdown-menu {
+.nft-mobile_menu
+  .nft-mobile_menu_content
+  .nft-mobile-main-navigation
+  .navbar-nav
+  .dropdown-menu {
   border: none;
   display: none;
   -webkit-transition: none;
   transition: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   padding: 5px 0px;
   width: 100%;
   background-color: transparent;
 }
-.nft-mobile_menu .nft-mobile_menu_content .nft-mobile-main-navigation .navbar-nav .dropdown-menu li {
+.nft-mobile_menu
+  .nft-mobile_menu_content
+  .nft-mobile-main-navigation
+  .navbar-nav
+  .dropdown-menu
+  li {
   border: none;
   padding: 0 20px;
   line-height: 1;
 }
-.nft-mobile_menu .nft-mobile_menu_content .nft-mobile-main-navigation .navbar-nav .dropdown-menu li a {
+.nft-mobile_menu
+  .nft-mobile_menu_content
+  .nft-mobile-main-navigation
+  .navbar-nav
+  .dropdown-menu
+  li
+  a {
   color: #fff !important;
   -webkit-transition: 500ms all ease-in-out;
   transition: 500ms all ease-in-out;
@@ -746,7 +810,7 @@ select:visited {
   padding-bottom: 36px;
 }
 .nft-banner-content .nft-banner-text h1 span {
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -765,7 +829,7 @@ select:visited {
   background-image: url(../img/nft/banner/b-sh9.png);
 }
 .nft-banner-content .nft-banner-text p {
-  color: #D7D7D7;
+  color: #d7d7d7;
   font-weight: 500;
   padding-bottom: 40px;
 }
@@ -777,7 +841,7 @@ select:visited {
   top: 40%;
   left: -90px;
   -webkit-animation: rotation 8s infinite linear;
-          animation: rotation 8s infinite linear;
+  animation: rotation 8s infinite linear;
 }
 .nft-banner-content .nft-banner-img .img-shape2 {
   top: 68%;
@@ -815,7 +879,11 @@ select:visited {
 }
 .nft-marketplace-filter-btn li.filtr-active {
   border: 2px solid rgba(2, 247, 70, 0.2);
-  background: linear-gradient(96.49deg, rgba(2, 247, 70, 0.2) 0%, rgba(60, 16, 242, 0.2) 101.82%);
+  background: linear-gradient(
+    96.49deg,
+    rgba(2, 247, 70, 0.2) 0%,
+    rgba(60, 16, 242, 0.2) 101.82%
+  );
 }
 
 .nft-marketplace-items {
@@ -828,7 +896,7 @@ select:visited {
 }
 .nft-marketplace-items .thx-inner-item:hover .thx-inner-img img {
   -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  transform: scale(1.15);
 }
 .nft-marketplace-items .thx-inner-img {
   margin-bottom: 24px;
@@ -838,7 +906,7 @@ select:visited {
 }
 .nft-marketplace-items .thx-inner-img img {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
 }
@@ -855,11 +923,11 @@ select:visited {
   margin: 15px 0px 25px;
 }
 .nft-marketplace-items .thx-inner-text .market-meta a {
-  color: #06E652;
+  color: #06e652;
   margin-right: 20px;
 }
 .nft-marketplace-items .thx-inner-text .market-meta a:last-child {
-  color: #B4B4B4;
+  color: #b4b4b4;
   margin-right: 0;
 }
 .nft-marketplace-items .thx-inner-text .market-meta a img {
@@ -878,12 +946,16 @@ select:visited {
   position: relative;
   border-radius: 100%;
   border: 2px solid rgba(2, 247, 70, 0.2);
-  background: linear-gradient(96.49deg, rgba(2, 247, 70, 0.2) 0%, rgba(60, 16, 242, 0.2) 101.82%);
+  background: linear-gradient(
+    96.49deg,
+    rgba(2, 247, 70, 0.2) 0%,
+    rgba(60, 16, 242, 0.2) 101.82%
+  );
 }
 .nft-top-creator-section .carousel_nav button i {
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .nft-top-creator-section .carousel_nav button:before {
@@ -896,19 +968,19 @@ select:visited {
   position: absolute;
   border-radius: 100%;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
 }
 .nft-top-creator-section .carousel_nav button:hover:before {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .nft-top-creator-section .carousel_nav button:hover i {
   background: linear-gradient(96.49deg, #fff 0%, #fff 101.82%);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .nft-top-creator-section .nft-section-title {
@@ -1001,7 +1073,7 @@ select:visited {
   font-weight: 700;
 }
 .nft-feature-inner-item .thx-inner-item .thx-inner-text p {
-  color: #DADADA;
+  color: #dadada;
   padding-bottom: 30px;
 }
 .nft-feature-inner-item .thx-inner-item .thx-inner-text .nft-btn-2 a {
@@ -1018,20 +1090,24 @@ select:visited {
 .nft-cta-content {
   padding: 80px 15px;
   border-radius: 8px;
-  border: 1px solid #02F746;
-  background: linear-gradient(96.49deg, rgba(2, 247, 70, 0.1) 0%, rgba(60, 16, 242, 0.1) 101.82%);
+  border: 1px solid #02f746;
+  background: linear-gradient(
+    96.49deg,
+    rgba(2, 247, 70, 0.1) 0%,
+    rgba(60, 16, 242, 0.1) 101.82%
+  );
 }
 .nft-cta-content .nft-shape1 {
   right: -60px;
   bottom: -120px;
   -webkit-animation: rotation 8s infinite linear;
-          animation: rotation 8s infinite linear;
+  animation: rotation 8s infinite linear;
 }
 .nft-cta-content .nft-shape2 {
   right: -60px;
   bottom: 50px;
   -webkit-animation: rotation 15s infinite linear;
-          animation: rotation 15s infinite linear;
+  animation: rotation 15s infinite linear;
 }
 .nft-cta-content .nft-cta-text {
   margin: 0 auto;
@@ -1078,8 +1154,15 @@ select:visited {
   border-bottom-right-radius: 30px;
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background-image: -webkit-gradient(linear, left top, right top, from(#02F746), color-stop(50%, #3C10F2), to(#02F746));
-  background-image: linear-gradient(90deg, #02F746 0%, #3C10F2 50%, #02F746);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#02f746),
+    color-stop(50%, #3c10f2),
+    to(#02f746)
+  );
+  background-image: linear-gradient(90deg, #02f746 0%, #3c10f2 50%, #02f746);
 }
 .nft-cta-content .nft-cta-form button:hover {
   background-position: 120%;
@@ -1107,7 +1190,8 @@ select:visited {
     opacity: 1;
   }
   100% {
-    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0)
+      scale(1.5);
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
   }
@@ -1119,7 +1203,8 @@ select:visited {
     opacity: 1;
   }
   100% {
-    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0)
+      scale(1.5);
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
   }
@@ -1143,7 +1228,7 @@ select:visited {
   content: "";
   height: 100%;
   position: absolute;
-  background-color: #06A640;
+  background-color: #06a640;
 }
 .nft-faq-accordion .nft-faq {
   padding: 30px 24px 20px;
@@ -1170,7 +1255,7 @@ select:visited {
   position: absolute;
   font-family: "Urbanist";
   border-radius: 100%;
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
 }
 .nft-faq-header button {
   color: #fff;
@@ -1205,14 +1290,14 @@ select:visited {
   right: 0;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .nft-video-play-area .nft-video-play-btn a {
   width: 70px;
   height: 70px;
   margin: 0 auto;
   border-radius: 100%;
-  background-color: #0B111B;
+  background-color: #0b111b;
 }
 .nft-video-play-area .nft-video-play-btn:before {
   top: 50%;
@@ -1223,7 +1308,7 @@ select:visited {
   width: 130px;
   height: 130px;
   display: block;
-  background: #0B111B;
+  background: #0b111b;
   position: absolute;
   border-radius: 50%;
   -webkit-transform: translate(-50%);
@@ -1252,7 +1337,11 @@ select:visited {
   border-radius: 8px;
   border-radius: 8px;
   border: 1px solid #3c10f2;
-  background: linear-gradient(255.02deg, rgba(2, 247, 70, 0.1) 0%, rgba(60, 16, 242, 0.1) 99.14%);
+  background: linear-gradient(
+    255.02deg,
+    rgba(2, 247, 70, 0.1) 0%,
+    rgba(60, 16, 242, 0.1) 99.14%
+  );
 }
 .nft-live-bid-items .thx-inner-item {
   width: 100%;
@@ -1270,7 +1359,7 @@ select:visited {
   color: #fff;
   width: 55px;
   height: 30px;
-  background-color: #FF3E76;
+  background-color: #ff3e76;
 }
 .nft-live-bid-items .thx-inner-title-text .thx-inner-social .nft-heart-count i {
   margin-right: 4px;
@@ -1279,7 +1368,7 @@ select:visited {
   height: 30px;
   width: 40px;
   margin-left: 12px;
-  background-color: #1477FB;
+  background-color: #1477fb;
 }
 .nft-live-bid-items .thx-inner-author {
   padding-bottom: 24px;
@@ -1292,7 +1381,7 @@ select:visited {
   border-radius: 100%;
 }
 .nft-live-bid-items .thx-inner-author .author-text span {
-  color: #B5B5B5;
+  color: #b5b5b5;
   display: block;
   font-size: 12px;
   padding-bottom: 5px;
@@ -1317,8 +1406,12 @@ select:visited {
   padding-top: 18px;
   text-align: center;
   border-radius: 100%;
-  border: 1px solid #02F746;
-  background: linear-gradient(96.49deg, rgba(2, 247, 70, 0.1) 0%, rgba(60, 16, 242, 0.1) 101.82%);
+  border: 1px solid #02f746;
+  background: linear-gradient(
+    96.49deg,
+    rgba(2, 247, 70, 0.1) 0%,
+    rgba(60, 16, 242, 0.1) 101.82%
+  );
 }
 .nft-live-bid-items .thx-inner-countdown .coming-countdown li strong {
   color: #fff;
@@ -1369,7 +1462,7 @@ select:visited {
   cursor: pointer;
   position: relative;
   display: inline-block;
-  background-color: #3C10F2;
+  background-color: #3c10f2;
 }
 .nft-live-bid-slider .owl-dots .owl-dot:before {
   top: 0;
@@ -1380,14 +1473,15 @@ select:visited {
   position: absolute;
   border-radius: 100%;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
 }
-.nft-live-bid-slider .owl-dots .owl-dot:hover:before, .nft-live-bid-slider .owl-dots .owl-dot.active:before {
+.nft-live-bid-slider .owl-dots .owl-dot:hover:before,
+.nft-live-bid-slider .owl-dots .owl-dot.active:before {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .nft-live-bid-content .nft-shape1 {
@@ -1442,7 +1536,7 @@ select:visited {
   padding: 8px 20px;
   border-radius: 30px;
   display: inline-block;
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
 }
 .nft-blog-inner-item .thx-inner-meta {
   margin: 20px 0px;
@@ -1456,9 +1550,9 @@ select:visited {
 }
 .nft-blog-inner-item .thx-inner-meta a i {
   margin-right: 10px;
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .nft-blog-inner-item .thx-inner-text h3 {
@@ -1473,7 +1567,7 @@ select:visited {
   transition: 500ms all ease;
 }
 .nft-blog-inner-item .thx-inner-text h3:hover {
-  color: #0AD45F;
+  color: #0ad45f;
 }
 .nft-blog-inner-item .thx-inner-text .nft-read-more {
   color: #fff;
@@ -1488,7 +1582,7 @@ select:visited {
   transition: 200ms all ease;
 }
 .nft-blog-inner-item .thx-inner-text .nft-read-more:hover {
-  color: #0AD45F;
+  color: #0ad45f;
 }
 .nft-blog-inner-item .thx-inner-text .nft-read-more:hover i {
   margin-left: 8px;
@@ -1542,8 +1636,15 @@ select:visited {
   background-size: 200%, 1px;
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background-image: -webkit-gradient(linear, left top, right top, from(#02F746), color-stop(50%, #3C10F2), to(#02F746));
-  background-image: linear-gradient(90deg, #02F746 0%, #3C10F2 50%, #02F746);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#02f746),
+    color-stop(50%, #3c10f2),
+    to(#02f746)
+  );
+  background-image: linear-gradient(90deg, #02f746 0%, #3c10f2 50%, #02f746);
 }
 .nft-footer-widget .logo-widget .nft-newslatter-widget button:hover {
   background-position: 120%;
@@ -1570,14 +1671,14 @@ select:visited {
   position: absolute;
   border-radius: 100%;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background: linear-gradient(96.49deg, #02F746 0%, #3C10F2 101.82%);
+  background: linear-gradient(96.49deg, #02f746 0%, #3c10f2 101.82%);
 }
 .nft-footer-widget .logo-widget .nft-footer-social a:hover:before {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 .nft-footer-widget .menu-widget {
   padding-left: 30px;
@@ -1587,7 +1688,7 @@ select:visited {
   margin-bottom: 10px;
 }
 .nft-footer-widget .menu-widget li a {
-  color: #D7D7D7;
+  color: #d7d7d7;
 }
 .nft-footer-widget .language-widget {
   padding-left: 50px;
@@ -1659,7 +1760,7 @@ select:visited {
 .nft-footer-copyright .copyright-menu li {
   margin-left: 60px;
   position: relative;
-  color: #D7D7D7;
+  color: #d7d7d7;
 }
 .nft-footer-copyright .copyright-menu li:before {
   top: 5px;
@@ -1678,7 +1779,7 @@ select:visited {
 /*Responsive area*/
 @media screen and (max-width: 1150px) {
   .nft-banner-content .nft-banner-img .img-shape,
-.nft-banner-content .nft-banner-img .img-shape2 {
+  .nft-banner-content .nft-banner-img .img-shape2 {
     display: none;
   }
 
@@ -1701,8 +1802,8 @@ select:visited {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .nft-banner-content {
@@ -1716,7 +1817,7 @@ select:visited {
 
   .nft-live-bid-items {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 
   .nft-live-bid-items .thx-inner-item {
@@ -1795,7 +1896,7 @@ select:visited {
   }
 
   .nft-section-title h2 .left-icon,
-.nft-section-title h2 .right-icon {
+  .nft-section-title h2 .right-icon {
     display: none;
   }
 
@@ -1851,7 +1952,7 @@ select:visited {
 
   .nft-top-content {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .nft-top-content .carousel_nav {
     margin-top: 30px;
@@ -1876,11 +1977,11 @@ select:visited {
 
   .nft-footer-copyright-content {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     text-align: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .nft-footer-copyright-content .copyright-menu li {
@@ -1901,7 +2002,7 @@ select:visited {
   }
 
   .nft-market-place-section,
-.nft-top-creator-section {
+  .nft-top-creator-section {
     padding-top: 50px;
   }
 }
