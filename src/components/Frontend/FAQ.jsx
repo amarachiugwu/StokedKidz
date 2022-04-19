@@ -14,7 +14,7 @@ function FAQ() {
             </h2>
           </div>
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="nft-faq-content">
                 <div className="nft-faq-accordion position-relative">
                   <div className="accordion" id="accordionExample">
@@ -52,6 +52,7 @@ function FAQ() {
                         </div>
                       </div>
                     </div>
+
                     <div className="nft-faq">
                       <div className="nft-faq-header" id="headingtwo">
                         <span>Q2</span>
@@ -85,6 +86,7 @@ function FAQ() {
                         </div>
                       </div>
                     </div>
+                    
                     <div className="nft-faq">
                       <div className="nft-faq-header" id="headingthree">
                         <span>Q3</span>
@@ -148,24 +150,6 @@ function FAQ() {
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="nft-video-play-area">
-                <div className="nft-video-play-img">
-                  <img
-                    src="assets/img/nft/banner/video.png"
-                    alt="roadmap image"
-                  />
-                </div>
-                <div className="nft-video-play-btn">
-                  <a
-                    className="d-flex justify-content-center align-items-center lightbox-image"
-                    href="https://www.youtube.com/watch?v=NNQLJcJEzv0"
-                  >
-                    <i className="fas fa-play"></i>
-                  </a>
                 </div>
               </div>
             </div>
