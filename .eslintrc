@@ -28,10 +28,10 @@
     "react"
   ],
   "rules": {
-    "react/react-in-jsx-scope": "off",
+    "react/react-in-jsx-scope": "1",
     "react/prop-types": "off",
     "react/jsx-key": "off",
     "react/no-unescaped-entities": "off",
-    "linebreak-style": 0,
+    "linebreak-style": 0
   }
 }
