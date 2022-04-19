@@ -1,2 +1,2 @@
 # StockedKids
- NFT Marketplace for StockedKids Collections
+ NFT Marketplace for StokedKidz Collections
