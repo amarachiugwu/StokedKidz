@@ -40,7 +40,9 @@ function Banner() {
               data-wow-delay="500ms"
               data-wow-duration="1500ms"
             >
-             3000 Stocked KIDZ Club NFT utility collection, For your membership to the Treehouse Community, gives you exclusive access to member’s only Merch, Airdrops, upcoming Events, and much more, mint Now.
+              3000 Stocked KIDZ Club NFT utility collection, For your membership
+              to the Treehouse Community, gives you exclusive access to member’s
+              only Merch, Airdrops, upcoming Events, and much more, mint Now.
             </p>
             <div
               className="nft-btn wow fadeFromUp"

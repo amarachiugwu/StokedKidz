@@ -7,7 +7,7 @@ function Navigation() {
       <div className="container">
         <div className="nft-main-navigation-wrapper d-flex justify-content-between position-relative">
           <div className="nft-brand-logo">
-            <Link to="nft-banner">
+            <Link to="#nft-banner">
               <img src="assets/img/nft/logo/logo.png" alt="Logo" />
             </Link>
           </div>
@@ -27,10 +27,10 @@ function Navigation() {
                   </Link>
                 </li>
                 <li>
-                    {" "}
-                    <Link className="nav-link" to="#roadmap">
-                      Roadmap
-                    </Link>
+                  {" "}
+                  <Link className="nav-link" to="#roadmap">
+                    Roadmap
+                  </Link>
                 </li>
                 <li>
                   {" "}
@@ -38,24 +38,28 @@ function Navigation() {
                     Nft Gallery
                   </Link>
                 </li>
-                  <li>
-                    {" "}
-                    <Link className="nav-link" to="#team">
-                      Team
-                    </Link>
-                  </li>
+                <li>
+                  {" "}
+                  <Link className="nav-link" to="#team">
+                    Team
+                  </Link>
+                </li>
                 <li>
                   {" "}
                   <Link className="nav-link" to="#nft-faq-video">
                     FAQ
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   {" "}
-                  <a className="nav-link" target="_blank" href="/whitepaper.txt">
+                  <a
+                    className="nav-link"
+                    target="_blank"
+                    href="/whitepaper.txt"
+                  >
                     Whitepaper
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
             <div className="nft-btn text-center">
@@ -80,7 +84,7 @@ function Navigation() {
                 <i className="fas fa-times"></i>
               </div>
               <div className="m-brand-logo text-center">
-                <Link to="nft-banner">
+                <Link to="#nft-banner">
                   <img src="assets/img/nft/logo/logo.png" alt="Logo" />
                 </Link>
               </div>
@@ -98,9 +102,9 @@ function Navigation() {
                   <li>
                     {" "}
                     <Link className="nav-link" to="#about">
-                        About
+                      About
                     </Link>
-                   </li>
+                  </li>
                   <li>
                     {" "}
                     <Link className="nav-link" to="#roadmap">
@@ -125,12 +129,16 @@ function Navigation() {
                       FAQ
                     </Link>
                   </li>
-                <li>
-                  {" "}
-                  <a className="nav-link" target="_blank" href="whitepaper.txt">
-                    Whitepaper
-                  </a>
-                </li>
+                  {/* <li>
+                    {" "}
+                    <a
+                      className="nav-link"
+                      target="_blank"
+                      href="whitepaper.txt"
+                    >
+                      Whitepaper
+                    </a>
+                  </li> */}
                 </ul>
               </nav>
             </div>
