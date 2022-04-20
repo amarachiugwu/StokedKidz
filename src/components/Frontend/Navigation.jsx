@@ -1,3 +1,4 @@
+import Account from "components/Account/Account";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -63,13 +64,8 @@ function Navigation() {
               </ul>
             </nav>
             <div className="nft-btn text-center">
-              <Link
-                className="d-flex justify-content-center align-items-center"
-                to="#"
-              >
-                <img src="assets/img/nft/icon/ic1.png" alt="wallet" />
-                Connect Wallet
-              </Link>
+
+            <Account />
             </div>
           </div>
         </div>

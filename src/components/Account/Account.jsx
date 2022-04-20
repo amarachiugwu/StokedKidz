@@ -53,7 +53,13 @@ function Account() {
     return (
       <>
         <div onClick={() => setIsAuthModalVisible(true)}>
-          <p style={styles.text}>Authenticate</p>
+          {/* <p style={styles.text}>Authenticate</p> */}
+
+          <a className="d-flex justify-content-center align-items-center">
+            <img src="assets/img/nft/icon/ic1.png" alt="wallet" />
+            Connect Wallet
+          </a>
+
         </div>
         <Modal
           visible={isAuthModalVisible}
