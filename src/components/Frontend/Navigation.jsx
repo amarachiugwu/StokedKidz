@@ -64,8 +64,7 @@ function Navigation() {
               </ul>
             </nav>
             <div className="nft-btn text-center">
-
-            <Account />
+              <Account />
             </div>
           </div>
         </div>

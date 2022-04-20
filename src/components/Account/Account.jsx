@@ -59,7 +59,6 @@ function Account() {
             <img src="assets/img/nft/icon/ic1.png" alt="wallet" />
             Connect Wallet
           </a>
-
         </div>
         <Modal
           visible={isAuthModalVisible}
