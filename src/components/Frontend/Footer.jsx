@@ -14,11 +14,12 @@ function Footer() {
               </p>
             </div>
             <div className="nft-btn d-flex justify-content-center">
-              <a target="_blank"
+              <a
+                target="_blank"
                 className="d-flex align-items-center justify-content-center"
                 href="https://discord.gg/yf5Hs5VYDa"
               >
-               Join
+                Join
               </a>
             </div>
           </div>
@@ -80,10 +81,20 @@ function Footer() {
                           <a href="#">Instagram</a>
                         </li> */}
                         <li>
-                          <a target="_blank" href="https://twitter.com/stokedkidznft">Twitter</a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/stokedkidznft"
+                          >
+                            Twitter
+                          </a>
                         </li>
                         <li>
-                          <a target="_blank" href="https://discord.gg/yf5Hs5VYDa">Discord</a>
+                          <a
+                            target="_blank"
+                            href="https://discord.gg/yf5Hs5VYDa"
+                          >
+                            Discord
+                          </a>
                         </li>
                         {/* <li>
                           <a href="#">Behance</a>
@@ -95,7 +106,6 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>

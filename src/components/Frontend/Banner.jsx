@@ -49,7 +49,6 @@ function Banner() {
               data-wow-delay="700ms"
               data-wow-duration="1500ms"
             >
-
               <div id="main-container">
                 <div id="mint-button-container">Mint now</div>
                 <div id="mint-counter"></div>
