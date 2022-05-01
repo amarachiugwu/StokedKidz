@@ -50,9 +50,13 @@ function Banner() {
               data-wow-duration="1500ms"
             >
               <div id="main-container">
-                <div id="mint-button-container">Mint now</div>
-                <div id="mint-counter"></div>
-              </div>
+    <h1 style="color: white">Mint Now</h1>
+
+    
+    <div id="mint-button-container"></div>
+    <div id="mint-counter"></div>
+</div>
+             
               {/* <Link
                 className="d-flex justify-content-center align-items-center"
                 to="#nft-gallery"
