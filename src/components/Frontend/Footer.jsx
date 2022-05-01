@@ -7,18 +7,18 @@ function Footer() {
         <div className="container">
           <div className="nft-cta-content-2 nft-headline pera-content text-center">
             <div className="nft-section-title text-center  nft-headline pera-content">
-              <h2>Join Our StokedKidz Community</h2>
+              <h2>Join Our Treehouse</h2>
               <p>
                 Rewarding Lowest Fees and Unlimited Rewards. We Have it all to
                 best experience to buy your first StokedKidz NFT.
               </p>
             </div>
             <div className="nft-btn d-flex justify-content-center">
-              <a
+              <a target="_blank"
                 className="d-flex align-items-center justify-content-center"
-                href="#"
+                href="https://discord.gg/yf5Hs5VYDa"
               >
-                Lunch Discord
+               Join
               </a>
             </div>
           </div>
@@ -30,7 +30,7 @@ function Footer() {
           <div className="container">
             <div className="nft-footer-widget-wrapper">
               <div className="row">
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-4 col-md-4">
                   <div className="nft-footer-widget nft-headline pera-content ul-li">
                     <div className="logo-widget">
                       <div className="site-logo">
@@ -41,35 +41,10 @@ function Footer() {
                           />
                         </a>
                       </div>
-                      <div className="nft-newslatter-widget">
-                        <p>Get the Latest StokedKidz Updates</p>
-                        <form action="#">
-                          <input
-                            type="email"
-                            placeholder="Enter Email Address"
-                          />
-                          <button type="submit">Subscribe</button>
-                        </form>
-                      </div>
-                      <div className="nft-footer-social">
-                        <p>Join the Conversation</p>
-                        <a href="#">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                        <a href="#">
-                          <i className="fab fa-behance"></i>
-                        </a>
-                        <a href="#">
-                          <i className="fab fa-youtube"></i>
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-2 col-md-3">
+                <div className="col-lg-4 col-md-4">
                   <div className="nft-footer-widget nft-headline pera-content ul-li">
                     <div className="menu-widget">
                       <h3 className="widget-title">Useful LInks</h3>
@@ -86,33 +61,33 @@ function Footer() {
                         <li>
                           <a href="#nft-gallery">Gallery</a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a href="#nft-faq-video">FAQ</a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-2 col-md-3">
+                <div className="col-lg-4 col-md-4">
                   <div className="nft-footer-widget nft-headline pera-content ul-li">
                     <div className="menu-widget">
                       <h3 className="widget-title">Community</h3>
                       <ul>
-                        <li>
+                        {/* <li>
                           <a href="#">Facebook</a>
-                        </li>
+                        </li> */}
                         {/* <li>
                           <a href="#">Instagram</a>
                         </li> */}
                         <li>
-                          <a href="#">Twitter</a>
+                          <a target="_blank" href="https://twitter.com/stokedkidznft">Twitter</a>
                         </li>
                         <li>
-                          <a href="#">Discord</a>
+                          <a target="_blank" href="https://discord.gg/yf5Hs5VYDa">Discord</a>
                         </li>
-                        <li>
+                        {/* <li>
                           <a href="#">Behance</a>
-                        </li>
+                        </li> */}
                         {/* <li>
                           <a href="#">Youtube</a>
                         </li> */}
@@ -120,70 +95,7 @@ function Footer() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-4 col-md-6">
-                  <div className="nft-footer-widget nft-headline pera-content ul-li">
-                    <div className="language-widget">
-                      <h3 className="widget-title">Certified</h3>
-                      {/* <div className="language-select position-relative">
-                        <div className="language-item d-flex align-items-center position-relative">
-                          <div className="lang-flag">
-                            <img
-                              src="assets/img/nft/logo/flag1.png"
-                              alt="footer image"
-                            />
-                          </div>
-                          <div className="lang-text">English</div>
-                        </div>
-                        <div className="lang-option ul-li-block">
-                          <ul>
-                            <li>
-                              <a href="#">
-                                <img
-                                  src="assets/img/nft/logo/flag1.png"
-                                  alt="footer image"
-                                />{" "}
-                                Spanish
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <img
-                                  src="assets/img/nft/logo/flag1.png"
-                                  alt="footer image"
-                                />{" "}
-                                Arabia
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <img
-                                  src="assets/img/nft/logo/flag1.png"
-                                  alt="footer image"
-                                />{" "}
-                                Freanch
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div> */}
-                      <div className="lang-certificate d-flex align-items-center">
-                        <div className="lng-cer-icon">
-                          <img
-                            src="assets/img/nft/logo/fg2.png"
-                            alt="footer image"
-                          />
-                        </div>
-                        <div className="lng-cer-text">
-                          <img
-                            src="assets/img/nft/logo/fg1.png"
-                            alt="footer image"
-                          />
-                          <p>Certified Infrastructure</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -195,14 +107,14 @@ function Footer() {
                 Copyright@StokedKidz 2022. All rights reserved.
               </div>
               <div className="copyright-menu ul-li">
-                <ul>
+                {/* <ul>
                   <li>
                     <a href="#">Support</a>
                   </li>
                   <li>
                     <a href="#">Privacy Policy</a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

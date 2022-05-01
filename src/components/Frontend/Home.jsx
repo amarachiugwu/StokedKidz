@@ -1,12 +1,12 @@
 import React from "react";
 import About from "./About";
 import Banner from "./Banner";
-import FAQ from "./FAQ";
+// import FAQ from "./FAQ";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
 import Navigation from "./Navigation";
 import Roadmap from "./Roadmap";
-import Team from "./Team";
+// import Team from "./Team";
 
 function Home() {
   return (
@@ -16,8 +16,8 @@ function Home() {
       <About />
       <Roadmap />
       <Gallery />
-      <Team />
-      <FAQ />
+      {/* <Team /> */}
+      {/* <FAQ /> */}
       <Footer />
     </>
   );

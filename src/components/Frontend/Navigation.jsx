@@ -39,7 +39,7 @@ function Navigation() {
                     Nft Gallery
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   {" "}
                   <Link className="nav-link" to="#team">
                     Team
@@ -50,7 +50,7 @@ function Navigation() {
                   <Link className="nav-link" to="#nft-faq-video">
                     FAQ
                   </Link>
-                </li>
+                </li> */}
                 {/* <li>
                   {" "}
                   <a
@@ -112,7 +112,7 @@ function Navigation() {
                       Nft Gallery
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     {" "}
                     <Link className="nav-link" to="#team">
                       Team
@@ -123,7 +123,7 @@ function Navigation() {
                     <Link className="nav-link" to="#nft-faq-video">
                       FAQ
                     </Link>
-                  </li>
+                  </li> */}
                   {/* <li>
                     {" "}
                     <a

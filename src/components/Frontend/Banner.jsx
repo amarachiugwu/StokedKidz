@@ -10,12 +10,12 @@ function Banner() {
       <span className="nft-shape3 position-absolute">
         <img src="assets/img/nft/banner/b-sh2.png" alt="banner content" />
       </span>
-      <span
+      {/* <span
         className="nft-shape4 position-absolute"
         data-parallax='{"x" : -250}'
       >
         <img src="assets/img/nft/banner/b-sh7.png" alt="banner content" />
-      </span>
+      </span> */}
       <span
         className="nft-shape5 position-absolute"
         data-parallax='{"y" : 100, "rotateY":500}'
@@ -49,12 +49,17 @@ function Banner() {
               data-wow-delay="700ms"
               data-wow-duration="1500ms"
             >
-              <Link
+
+              <div id="main-container">
+                <div id="mint-button-container">Mint now</div>
+                <div id="mint-counter"></div>
+              </div>
+              {/* <Link
                 className="d-flex justify-content-center align-items-center"
                 to="#nft-gallery"
               >
                 Discover Collection
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="nft-banner-img position-absolute">
