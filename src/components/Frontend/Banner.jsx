@@ -48,20 +48,14 @@ function Banner() {
               className="nft-btn wow fadeFromUp"
               data-wow-delay="700ms"
               data-wow-duration="1500ms"
-            >
-              <div id="main-container">
-                <h1 style="color: white">Mint Now</h1>
+            
 
-                <div id="mint-button-container"></div>
-                <div id="mint-counter"></div>
-              </div>
-
-              {/* <Link
+              <Link
                 className="d-flex justify-content-center align-items-center"
                 to="#nft-gallery"
               >
                 Discover Collection
-              </Link> */}
+              </Link>
             </div>
           </div>
           <div className="nft-banner-img position-absolute">

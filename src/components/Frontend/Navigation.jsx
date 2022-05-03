@@ -1,4 +1,4 @@
-// import Account from "components/Account/Account";
+import Account from "components/Account/Account";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -63,9 +63,9 @@ function Navigation() {
                 </li> */}
               </ul>
             </nav>
-            {/* <div className="nft-btn text-center">
+            <div className="nft-btn text-center">
               <Account />
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="nft-mobile_menu position-relative">
