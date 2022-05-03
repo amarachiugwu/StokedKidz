@@ -48,8 +48,7 @@ function Banner() {
               className="nft-btn wow fadeFromUp"
               data-wow-delay="700ms"
               data-wow-duration="1500ms"
-            
-
+            >
               <Link
                 className="d-flex justify-content-center align-items-center"
                 to="#nft-gallery"
